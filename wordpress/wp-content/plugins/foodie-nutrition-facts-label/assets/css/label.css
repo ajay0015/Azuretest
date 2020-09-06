@@ -1,0 +1,116 @@
+.foodie-nl-label {
+  display: inline-block;
+  border: 1px solid #000;
+  margin: 20px 0;
+  max-width: 280px !important;
+  padding: 10px;
+}
+
+.foodie-nl-label__header {
+  border-bottom: 10px solid black;
+  padding: 0 0 5px 0;
+  margin: 0 0 5px 0;
+}
+
+.foodie-nl-label__header p {
+  margin: 0;
+  padding: 0;
+  font-size: 13px !important;
+}
+
+h1.foodie-nl-label__title {
+  font-weight: bold !important;
+  line-height: 1;
+  font-size: 28px !important;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+h1.foodie-nl-label__title:before,
+h1.foodie-nl-label__title:after {
+  content: '' !important;
+  display: none !important;
+}
+
+.foodie-nl-label__table,
+.foodie-nl-label__table thead,
+.foodie-nl-label__table tbody,
+.foodie-nl-label__table tfoot,
+.foodie-nl-label__table tr,
+.foodie-nl-label__table th,
+.foodie-nl-label__table td {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-collapse: collapse;
+    border-color: inherit;
+    text-align: left;
+    font-weight: inherit;
+}
+
+.foodie-nl-label p {
+  font-family: Helvetica, Arial, 'Helvetica Neue', sans-serif !important;
+}
+
+.foodie-nl-label__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.foodie-nl-label__table th,
+.foodie-nl-label__table td {
+  padding: 5px 0;
+  border: 0;
+  border-top: 1px solid #000;
+  font-weight: normal;
+  font-family: Helvetica, Arial, 'Helvetica Neue', sans-serif !important;
+  font-size: 13px !important;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.foodie-nl-label__table td:last-child {
+  text-align: right;
+}
+
+.foodie-nl-label__table thead tr,
+.foodie-nl-label__table thead tr th,
+.foodie-nl-label__table thead tr td {
+  border: 0;
+  font-family: Helvetica, Arial, 'Helvetica Neue', sans-serif !important;
+}
+
+.foodie-nl-label__table .foodie-nl-label__spacer {
+  width: 20px;
+  border-top: 0;
+}
+
+.foodie-nl-label__table tr.thick-border-top td {
+  border-top-width: 5px;
+}
+
+.foodie-nl-label__table tr.thick-border-bottom th,
+.foodie-nl-label__table tr.thick-border-bottom td {
+  border-bottom: 10px solid #000;
+}
+
+td.foodie-nl-label-table__meta,
+th.foodie-nl-label-table__meta,
+.foodie-nl-label__info {
+  font-size: 11px !important;
+}
+
+.foodie-nl-label__info {
+  margin: 20px 0;
+}
+
+.foodie-nl-label__table b {
+  font-weight: bold;
+}
+
+.foodie-nl-label__calories-from-fat {
+  margin: 0;
+  font-size: 13px !important;
+}
