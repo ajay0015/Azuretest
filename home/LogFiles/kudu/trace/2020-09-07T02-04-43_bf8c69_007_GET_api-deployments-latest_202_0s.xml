@@ -1,0 +1,10 @@
+<step title="Incoming Request" date="2020-09-07T02:04:43.765" instance="bf8c69" url="/api/deployments/latest?deployer=GitHub&amp;time=2020-09-07_02-04-33Z" method="GET" type="request" pid="3540,2,12" Connection="Keep-Alive" Authorization="Bas..." Host="abhikardia.scm.azurewebsites.net" User-Agent="Azure-WebSites-Controller/89.0.7.82" x-ms-request-id="32f15c53-1ac5-45db-8da2-a87c21d7e241" X-WAWS-Unencoded-URL="/api/deployments/latest?deployer=GitHub&amp;time=2020-09-07_02-04-33Z" CLIENT-IP="13.65.92.72:41408" X-ARR-LOG-ID="32f15c53-1ac5-45db-8da2-a87c21d7e241" X-SITE-DEPLOYMENT-ID="abhikardia" WAS-DEFAULT-HOSTNAME="abhikardia.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.2" >
+  <step title="Cleanup Xml Logs" date="2020-09-07T02:04:43.780" /><!-- duration: 0ms -->
+  <step title="DeploymentService.GetResult" date="2020-09-07T02:04:43.796" >
+    <step title="DeploymentService.GetLatestDeployment" date="2020-09-07T02:04:43.796" >
+      <step title="DeploymentManager.GetResults" date="2020-09-07T02:04:43.796" /><!-- duration: 31ms -->
+      <step title="Deployment temp-c80aabab is Pending" date="2020-09-07T02:04:43.827" /><!-- duration: 0ms -->
+    </step><!-- duration: 47ms -->
+  </step><!-- duration: 47ms -->
+  <step title="Outgoing response" date="2020-09-07T02:04:43.843" type="response" statusCode="202" statusText="Accepted" Server="Microsoft-IIS/10.0" x-ms-request-id="32f15c53-1ac5-45db-8da2-a87c21d7e241" Cache-Control="private" X-AspNet-Version="4.0.30319" Location="https://abhikardia.scm.azurewebsites.net/api/deployments/latest?deployer=GitHub&amp;time=2020-09-07_02-04-33Z" Content-Type="application/json; charset=utf-8" /><!-- duration: 31ms -->
+</step><!-- duration: 109ms -->
