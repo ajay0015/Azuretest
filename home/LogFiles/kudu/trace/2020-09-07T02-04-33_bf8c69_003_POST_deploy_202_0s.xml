@@ -1,6 +1,0 @@
-<step title="Incoming Request" date="2020-09-07T02:04:33.045" instance="bf8c69" url="/deploy?scmType=ExternalGit&amp;isAsync=true" method="POST" type="request" pid="3540,2,8" Connection="Keep-Alive" Content-Length="93" Authorization="Bas..." Expect="100-continue" Host="abhikardia.scm.azurewebsites.net" User-Agent="Azure-WebSites-Controller/89.0.7.82" x-ms-request-id="32f15c53-1ac5-45db-8da2-a87c21d7e241" X-WAWS-Unencoded-URL="/deploy?scmType=ExternalGit&amp;isAsync=true" CLIENT-IP="13.65.92.72:41408" X-ARR-LOG-ID="32f15c53-1ac5-45db-8da2-a87c21d7e241" X-SITE-DEPLOYMENT-ID="abhikardia" WAS-DEFAULT-HOSTNAME="abhikardia.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.2" >
-  <step title="FetchHandler" date="2020-09-07T02:04:33.076" >
-    <step title="Start deployment in the background" date="2020-09-07T02:04:33.248" /><!-- duration: 203ms -->
-  </step><!-- duration: 391ms -->
-  <step title="Outgoing response" date="2020-09-07T02:04:33.467" type="response" statusCode="202" statusText="Accepted" Server="Microsoft-IIS/10.0" Location="https://abhikardia.scm.azurewebsites.net/api/deployments/latest?deployer=GitHub&amp;time=2020-09-07_02-04-33Z" Cache-Control="private" X-AspNet-Version="4.0.30319" /><!-- duration: 0ms -->
-</step><!-- duration: 422ms -->
